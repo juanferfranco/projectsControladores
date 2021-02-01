@@ -1,0 +1,23 @@
+
+(loop)
+@130
+D = A
+@R0
+M=D
+@132
+D = A
+@R1
+M=D
+(KBDCHECK)
+@24576
+D=M
+@ES0
+D;JEQ
+@NOES0
+D;JNE
+(ES0)
+@16454
+M=0
+@16384
+M=0
+@KBDCHECK
